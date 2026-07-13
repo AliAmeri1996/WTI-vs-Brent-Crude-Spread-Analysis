@@ -89,5 +89,21 @@ ax3.set_ylabel('Volatility (USD)')
 ax3.set_xlabel('Date')
 ax3.legend()
 
+
+
+'''COVID annotation'''
+ax2.annotate('COVID crash', 
+             xy=('2020-04-20', 60),
+             xytext=('2020-08-01', 55),
+             arrowprops=dict(arrowstyle='->'))
+
+
+
+'''Ukraine War annotation on the chart'''
+ax2.annotate('Ukraine War', 
+             xy=('2022-03-01', 8),# 8 It's the y position where the arrow points to 
+             xytext=('2022-06-01', 20), # 20 It's the x position where the arrow points to
+             arrowprops=dict(arrowstyle='->'))
+
 plt.tight_layout()
 plt.show()
