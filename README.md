@@ -58,4 +58,12 @@ understanding their relationship reveals insights about supply/demand dynamics,
 transportation costs, and geopolitical risk.
 
 ## Status
-In progress
+Complete
+
+## Key Findings
+- WTI and Brent prices move almost identically, confirming their role as correlated global benchmarks
+- The spread normally sits between $2-6, reflecting transportation and quality differences
+- April 2020 (COVID crash): spread spiked to $60+ as WTI went negative (-$37) due to US storage hitting capacity, while Brent remained positive — the most extreme spread event in modern oil history
+- Mid-2022 (Ukraine war/energy crisis): both benchmarks peaked above $120, with Brent rising faster than WTI due to Europe's heavier dependence on Russian oil
+- Volatility has significantly calmed since 2023, with the spread returning to its historical $2-4 range
+- Rolling volatility analysis clearly identifies the two major market stress periods (2020 and 2022) without needing any external data
