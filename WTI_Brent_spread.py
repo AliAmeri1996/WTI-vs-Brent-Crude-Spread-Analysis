@@ -3,8 +3,29 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-wtd=yf.download('CL=F',start='2020-01-01', end='2024-12-31')
+wti=yf.download('CL=F',start='2020-01-01', end='2024-12-31')
 brent=yf.download('BZ=F',start='2020-01-01', end='2024-12-31')
 
 
 
+#1-explore the data
+
+print("\n checking wti and brent data")
+
+print("\n number of the columns and rows")
+print(wti.shape)
+print(brent.shape)
+
+print("\n the columns information")
+print(wti.columns)
+print(brent.columns)
+
+
+print("\n the stats about both of the datasets")
+print(wti.describe())
+print(brent.describe())
+
+
+print("\n the first 5 lines of information of each")
+print(wti.head())
+print(brent.head())
